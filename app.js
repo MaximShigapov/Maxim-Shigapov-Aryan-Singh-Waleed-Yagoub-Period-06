@@ -16,3 +16,5 @@ tl.fromTo(".logo",{scale:3}, {scale:0, opacity: 0, duration: 1},"-=2");
 
 tl.fromTo(".title",{opacity:0}, {opacity:1, duration: 1});
 tl.fromTo(".sub-title",{opacity:0}, {opacity:1, duration: 1});
+
+
