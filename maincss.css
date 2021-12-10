@@ -1,86 +1,56 @@
+body {
+    font-family: Helvetica, Sans-Serif;
+    color: #444444;
+  }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-    
-}
+.welcome {
+    margin: 20px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    background-position: center;
+    padding: 20px;
+    width: 85vw;
+    height: 90vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+   }
+  
+  .map iframe{
+    margin: 20px;
+    border-radius: 20px;
+    width: 42vw;
+    height: 85vh;
+  }
 
-.front-page{
-    width: 100%;
-    height: 100vh;
-    color: white;
-    clip-path: circle(10%);
-}
 
-.front-page video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
-}
 
-.intro-text,
-.logo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    
-}
-.blend{
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    position: absolute;
-    opacity: 0.5;
-}
-.title{
-    font-size: 5rem;
-    padding-bottom: 1rem;
-}
-.sub-title{
-    font-size: 1.5rem;
-}
-.second-page{
-    height: 100vh;
-    background-color: rgb(231, 25, 25);
-}
-.third-page{
-    height: 100vh;
-    background-color: white;
-    opacity: 1;
-}
-.writing{
-    
-    font-size: 50px;
-    top: 60px;
-    position: relative;
-    margin-left: 30px;
-    text-align: left;
-    
-    
-}
-.location{
-    color: black;
-    
-    
-    
-}
-.map{
-    background-color: white;
-    position: relative;
+  .sidenav {
+    right: 20px;
+    height: 92vh; /* Full-height: remove this if you want "auto" height */
+    width: 7vw; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    background-color: rgb(255, 255, 255); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    border-radius: 20px;
 
-    
-}
-.map iframe{
-    width: 100%;
-    top: 100px;
-    align-items: center;
-    position:absolute
-    
-    
-}
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
 
