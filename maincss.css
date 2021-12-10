@@ -26,17 +26,17 @@ body {
 
   .sidenav {
     right: 20px;
-    height: 92vh; /* Full-height: remove this if you want "auto" height */
-    width: 7vw; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    background-color: rgb(255, 255, 255); /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    height: 92vh;
+    width: 7vw; 
+    position: fixed; 
+    background-color: rgb(255, 255, 255); 
+    overflow-x: hidden;
     padding-top: 20px;
     border-radius: 20px;
 
   }
   
-  /* The navigation menu links */
+  /* nav menu link text */
   .sidenav a {
     padding: 6px 8px 6px 16px;
     font-size: 15px;
