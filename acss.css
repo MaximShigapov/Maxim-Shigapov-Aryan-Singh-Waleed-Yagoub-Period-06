@@ -1,34 +1,47 @@
 body{
     background-color: black;
 }
-
-.text{
-    color: black;
-    text-align: center;
-}
-.services{
-    left: 1vw;
-    position: relative;
-    
-    margin-top: 20px;
+.sidenav {
+    right: 20px;
+    height: 92vh;
+    width: 7vw; 
+    position: fixed; 
+    background-color: rgb(255, 255, 255); 
+    overflow-x: hidden;
+    padding-top: 20px;
     border-radius: 20px;
-    background-color: rgb(255,255,255);
-    background-position: center;
-    padding: 20px;
-    width: 34vw;
-    height: 15vh;
+}    
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+  }
+.services-container{
+   width: 87vw;
+   height: 500px;
+   margin-left: 20px;
+   margin-top: 20px;
+   
    
 }
+.services-container img{
+    width: 87vw;
+    height: 500px;
+    border-radius: 20px;
 
-.food{
-    position: absolute;
-    top: 0px;
-    left: 50vw;
-   margin-top: 20px;
-   border-radius: 20px;
-   background-color: rgb(255,255,255);
-   background-position: center;
-   padding: 20px;
-   width: 34vw;
-   height: 15vh;
+}
+.services-text{
+    text-align: center;
+    color: white;
+   margin-top: -400px;
+
+}
+.food-container{
+    width: 87vw;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: white;
 }
