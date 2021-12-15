@@ -6,7 +6,7 @@ body{
     height: 92vh;
     width: 7vw; 
     position: fixed; 
-    background-color: rgb(255, 255, 255); 
+    background: white; 
     overflow-x: hidden;
     padding-top: 20px;
     border-radius: 20px;
@@ -20,7 +20,7 @@ body{
   }
 .services-container{
    width: 87vw;
-   height: 500px;
+   height: 40vh;
    margin-left: 20px;
    margin-top: 20px;
    
@@ -28,20 +28,161 @@ body{
 }
 .services-container img{
     width: 87vw;
-    height: 500px;
+    height: 40vh;
     border-radius: 20px;
 
 }
 .services-text{
     text-align: center;
     color: white;
-   margin-top: -400px;
+   margin-top: -200px;
 
 }
-.food-container{
-    width: 87vw;
-    height: 500px;
+
+
+
+
+
+
+
+
+.food-slides{
+    padding: 0;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: -90px;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+    background-color:black;
+}
+.section{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.slide{
+    width: 500%;
+    height: 500pv;
+    display: flex;
+}
+.slide input{
+    display: none;
+}
+.st{
+    width: 20%;
+    transition: 1s;
+}
+.st img{
+    width: 800px;
+    height: 500px;
+}
+.nav-m{
+    position: absolute;
+    width: 800px;
+    margin-top: -44px;
+    display: flex;
+    justify-content: center;
+    
+}
+.m-btn{
+    border: 2px solid white;
+    padding: 5px;
+
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.m-btn:not(:last-child){
+    margin-right: 30px;
+}
+.m-btn:hover{
     background-color: white;
+}
+#radio1:checked ~.first{
+    margin-left: 0;
+}
+#radio2:checked ~.first{
+    margin-left: -20%;
+}
+#radio3:checked ~.first{
+    margin-left: -40%;
+}
+#radio4:checked ~.first{
+    margin-left: -60%;
+}
+#radio5:checked ~.first{
+    margin-left: -80%;
+}
+
+.nav-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+.nav-auto div{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}
+#radio1:checked ~ .nav-auto .a-b1{
+    background-color: white;
+}
+#radio2:checked ~ .nav-auto .a-b2{
+    background-color: white;
+}
+#radio3:checked ~ .nav-auto .a-b3{
+    background-color: white;
+}
+#radio4:checked ~ .nav-auto .a-b4{
+    background-color: white;
+}
+#radio5:checked ~ .nav-auto .a-b5{
+    background-color: white;
+}
+.services-description-container{
+    
+    width: 32vw;
+    height: 66vh;
+    position: absolute;
+    margin-left: 117vh;
+    margin-top: -84.5vh;
+    
+}
+.description{
+    height: 66vh;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    
+}
+
+
+
+
+#preloader{
+    background: #000000 url(loader.gif) no-repeat center center;
+    background-size: 30%;
+    height:100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
 }
