@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="acss.css">
 </head>
 <body>
+    <div id="preloader"></div>
 
     <div class="sidenav">
         <a href="index.html">Home</a>
@@ -18,25 +19,86 @@
         <img src="12.jpg" alt="">
     <div class="services-text">
         <h1>Amenities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sunt doloremque quis aspernatur animi maiores atque eum voluptas voluptatum consequatur deleniti, recusandae iusto repellat accusamus, pariatur molestiae voluptatibus alias doloribus.</p>
     </div>  
-        
-    
-    
+
     </div>
-    <div class="food-container">
-       <div class="text">
-        <h1>Food</h1>
-       </div>
-        
+    <div class="food-slides">
+        <section class="section">
+            <div class="slider">
+                <div class="slide">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+    
+                    <div class="st first">
+                        <img src="25.jpg" alt="">
+                    </div>
+                    <div class="st">
+                        <img src="29.jpg" alt="">
+                    </div>
+                    <div class="st">
+                        <img src="27.jpg" alt="">
+                    </div>
+                    <div class="st">
+                        <img src="30.jpg" alt="">
+                    </div>
+                    <div class="st">
+                        <img src="20.jpg" alt="">
+                    </div>
+    
+                    <div class="nav-auto">
+                        <div class="a-b1"></div>
+                        <div class="a-b2"></div>
+                        <div class="a-b3"></div>
+                        <div class="a-b4"></div>
+                        <div class="a-b5"></div>
+                    </div>
+                </div>
+    
+                <div class="nav-m">
+                    <label for="radio1" class="m-btn"></label>
+                    <label for="radio2" class="m-btn"></label>
+                    <label for="radio3" class="m-btn"></label>
+                    <label for="radio4" class="m-btn"></label>
+                    <label for="radio5" class="m-btn"></label>
+                </div>
+            </div>
+    
+        </section>
     </div>
-    <div class="spa">
-        <div class="text">
-            <h1>Spa</h1>
+
+    <div class="services-description-container">
+        <div class="description">
+            <h1>Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, pariatur incidunt. Odio dignissimos accusantium aperiam harum eaque cum asperiores minus laborum excepturi laudantium delectus porro nostrum necessitatibus esse, repellat omnis!</p>
         </div>
         
     </div>
+
+    
+
+    
         
-    
-    
+    <script >
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function(){
+            loader.style.display="none";
+        })
+    </script>
+    <script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked=true;
+            counter++;
+            if(counter > 5){
+                counter=1;
+            }
+        },5000);
+
+    </script>
 </body>
 </html>
