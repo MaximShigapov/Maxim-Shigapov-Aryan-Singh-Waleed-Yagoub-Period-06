@@ -1,10 +1,11 @@
 body {
     font-family: Helvetica, Sans-Serif;
-    color: #444444;
+    color: #000000;
   }
 
 .welcome {
     margin: 20px;
+    margin-bottom: auto;
     border-radius: 20px;
     background: rgb(255, 255, 255);
     background-position: center;
@@ -18,16 +19,25 @@ body {
   .map iframe{
     margin: 20px;
     border-radius: 20px;
-    width: 42vw;
+    width: 43vw;
     height: 85vh;
   }
-
+  .book {
+    margin: 20px;
+    margin-top: -87.5vh;
+    margin-left: 45.5vw;
+    border-radius: 20px;
+    width: 43vw;
+    height: 85vh;
+    background: rgb(255, 255, 255);
+    position: absolute;
+  } 
 
 
   .sidenav {
     right: 20px;
     height: 92vh;
-    width: 7vw; 
+    width: 7.5vw; 
     position: fixed; 
     background-color: rgb(255, 255, 255); 
     overflow-x: hidden;
@@ -35,7 +45,6 @@ body {
     border-radius: 20px;
 
   }
-  
   /* nav menu link text */
   .sidenav a {
     padding: 6px 8px 6px 16px;
