@@ -18,24 +18,24 @@ body{
     color: #000000;
     display: block;
   }
-.services-container{
-   width: 87vw;
+.amenities-container{
+   width: 87.5vw;
    height: 40vh;
-   margin-left: 20px;
-   margin-top: 20px;
+   margin-left: 1.5vw;
+   margin-top: 1vh;
    
    
 }
-.services-container img{
+.amenities-container img{
     width: 87vw;
     height: 40vh;
     border-radius: 20px;
 
 }
-.services-text{
+.amenities-text{
     text-align: center;
     color: white;
-   margin-top: -200px;
+   margin-top: -25vh;
 
 }
 
@@ -46,10 +46,10 @@ body{
 
 
 
-.food-slides{
+.services-slides{
     padding: 0;
-    margin-left: 20px;
-    margin-top: -90px;
+    margin-left: 1.5vw;
+    margin-top: -16vh;
     height: 100vh;
     justify-self: center;
     align-items: center;
@@ -64,8 +64,8 @@ body{
     align-items: center;
 }
 .slider{
-    width: 800px;
-    height: 500px;
+    width: 55vw;
+    height: 65vh;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -94,7 +94,7 @@ body{
     
 }
 .m-btn{
-    border: 2px solid white;
+    border: 0.1px solid white;
     padding: 5px;
 
     border-radius: 20px;
@@ -131,7 +131,7 @@ body{
     justify-content: center;
 }
 .nav-auto div{
-    border: 2px solid white;
+    border: 0.1px solid white;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -155,17 +155,21 @@ body{
 #radio5:checked ~ .nav-auto .a-b5{
     background-color: white;
 }
+
+.services-description-container :hover{
+    background-color: teal;
+}
 .services-description-container{
     
     width: 32vw;
-    height: 66vh;
-    position: absolute;
-    margin-left: 117vh;
-    margin-top: -84.5vh;
+    height: 65vh;
+    float: right;
+    margin-top: -82.5vh;
+    margin-right: 8.7vw;
     
 }
 .description{
-    height: 66vh;
+    height: 62.5vh;
     padding: 10px;
     text-align: center;
     color: black;
@@ -173,6 +177,7 @@ body{
     background-color: blanchedalmond;
     
 }
+
 
 
 
