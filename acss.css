@@ -3,19 +3,22 @@ body{
 }
 .sidenav {
     right: 20px;
-    height: 92vh;
+    height: 93vh;
     width: 7.5vw; 
     position: fixed; 
-    background: white; 
     overflow-x: hidden;
     padding-top: 20px;
-    border-radius: 20px;
+    border-radius: 15px;
+    background-image: url(42.jpg);
+    background-position: right;
+    background-size:auto;
 }    
 .sidenav a {
-    padding: 6px 8px 6px 16px;
-    font-size: 15px;
+    text-align: center;
+    padding-top: 15vh;
+    font-size: 20px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     display: block;
   }
 .amenities-container{
