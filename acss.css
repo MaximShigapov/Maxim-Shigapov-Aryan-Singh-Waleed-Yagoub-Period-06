@@ -1,5 +1,7 @@
+/*/////////////////CSS for amenities///////////////////////*/
 body{
     background-color: black;
+    
 }
 .sidenav {
     right: 20px;
@@ -21,24 +23,28 @@ body{
     color: #ffffff;
     display: block;
   }
+
+
+  
 .amenities-container{
-   width: 87.5vw;
-   height: 40vh;
-   margin-left: 1.5vw;
-   margin-top: 1vh;
+    width: 87vw;
+    height: 40vh;
+   margin-left: 1.3vw;
+   margin-top: 2.5vh;
    
    
 }
 .amenities-container img{
     width: 87vw;
     height: 40vh;
-    border-radius: 20px;
+    border-radius: 15px;
 
 }
 .amenities-text{
     text-align: center;
     color: white;
    margin-top: -25vh;
+   position: static;
 
 }
 
@@ -52,30 +58,37 @@ body{
 .services-slides{
     padding: 0;
     margin-left: 1.5vw;
-    margin-top: -16vh;
-    height: 100vh;
+    margin-top: -10vh;
+    height: 90vh;
+    width: auto;
     justify-self: center;
     align-items: center;
     background-color:black;
+    
 }
 .section{
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-self: center;
     align-items: center;
+    
 }
 .slider{
     width: 55vw;
-    height: 65vh;
+    height: 60vh;
     border-radius: 20px;
     overflow: hidden;
+    background-color: thistle;
+    
 }
 .slide{
     width: 500%;
-    height: 500pv;
+    height: 64vh;
     display: flex;
+    
+    
 }
 .slide input{
     display: none;
@@ -91,7 +104,7 @@ body{
 .nav-m{
     position: absolute;
     width: 800px;
-    margin-top: -44px;
+    margin-top: -7vh;
     display: flex;
     justify-content: center;
     
@@ -129,7 +142,7 @@ body{
 .nav-auto{
     position: absolute;
     width: 800px;
-    margin-top: 460px;
+    margin-top: 57vh;
     display: flex;
     justify-content: center;
 }
@@ -167,7 +180,7 @@ body{
     width: 32vw;
     height: 65vh;
     float: right;
-    margin-top: -82.5vh;
+   /* margin-top: -82.5vh;*/
     margin-right: 8.7vw;
     
 }
