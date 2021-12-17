@@ -5,33 +5,85 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="maincss.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB Garamond">
         <title>Pinnacle</title>
     <style>   
-    
+        body{
+            font-family: 'EB Garamond', serif        }
     </style>
 </head>
 <body style="background-color:black;">
-   
+
+
     <div class="sidenav">
-        <a href="#">HOME</a>
-        <a href="#">BOOK</a>
-        <a href="#">AMENITIES</a>
+        <a href="index.html">resort</a>
+        <a href="book.html">bookings</a>
+        <a href="amenities.html">amenities</a>     
+        <a href="history.html">history</a>        
+   
     </div>
 
-
     <div class="welcome"> 
-        <h2>Pinnacle</h2>
-        <p>sit back and relax</p>
+        <video id="video" autoplay muted loop>
+            <source src="105.mp4" >
+        </video>
+        <div class="overlay">
+            <h2 id="toptext" style="font-weight: bold;font-size: 50px; line-height: 0px;">Pinnacle</h2>
+            <p id="topText">sit back and relax</p>
+        </div>        
     </div>
 
     <div class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.325443341802!2d-106.16734604921453!3d38.82500697948161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x30da8525d81fc88!2zMzjCsDQ5JzMwLjAiTiAxMDbCsDA5JzU0LjYiVw!5e0!3m2!1sen!2sus!4v1639175098555!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
-    <div class="book"> 
-        <h2>Book</h2>
-        <p>let's take a peek....</p>
-    </div>
+    <a href="book.html">
+        <div class="book"> 
+            <h2>Our Rooms</h2>
+            <p>let's take a peek →</p>
+        </div>
+    </a>
+        
+    <a href="amenities.html">
+        <div class="amenities">
+            <h2>Discover</h2>
+            <p>hotel amenities, services, and nearby attractions →</p>
+        </div>
+    </a>
+
+    <a href="history.html">
+        <div class="history"> 
+            <h2>About Pinnacle</h2>
+            <p> From its founding in 1929, the Pinnacle Hotel has had a long history 
+                of cultural, historical, and architectural integrity. When Alfonsino De
+                 Ratatouille started Pinnacle, he had one goal in mind: to provide the best 
+                 genuine italian vacation experience to its customers. Ever since its 
+                 humble beginnings back in 1929, the Pinnacle Hotel has truly become 
+                 the pinnacle in the hotel business—with its unrivaled pools, sprawling 
+                 rooms, and cozy suites, Pinnacle is the best in the west. Thousands 
+                 flock from all over the world to have a chance to experience what people have called the “best hotel experience ever.” 
+            </p>
+            <p>
+                learn more →
+            </p>
+        </div>
+     </a>
+
+     <div class="found">
+            <h2>Our Legacy</h2>
+            <p>For generations, the De Rossi family worked as humble farmers
+               in the italian suburbs. The great famine of 1923 deprived the 
+               fields of hydration, and the olive farmers of their harvests. 
+               determined to save his family's financial situation a few years later, Alfosino 
+               convinced his wife to turn their shed into a small hotel and bar
+               for the locals. As word spread and the olive trees shriveled, 
+               Pinnacle became the primary attraction in the village. Months later, 
+               Ferrari automobiles lined the dirt path leading into the resort. 
+               Since then, the hotel has become an international attraction, sustained
+               by the hands of later De Ratatouille generations.  
+            </p>
+     </div>
+
 
 </body>
 </html>
