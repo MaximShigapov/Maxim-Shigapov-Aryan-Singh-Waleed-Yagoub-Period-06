@@ -1,41 +1,49 @@
+/*/////////////////CSS for amenities///////////////////////*/
 body{
     background-color: black;
+    
 }
 .sidenav {
     right: 20px;
-    height: 92vh;
-    width: 7vw; 
+    height: 93vh;
+    width: 7.5vw; 
     position: fixed; 
-    background: white; 
     overflow-x: hidden;
     padding-top: 20px;
-    border-radius: 20px;
+    border-radius: 15px;
+    background-image: url(42.jpg);
+    background-position: right;
+    background-size:auto;
 }    
 .sidenav a {
-    padding: 6px 8px 6px 16px;
-    font-size: 15px;
+    text-align: center;
+    padding-top: 15vh;
+    font-size: 20px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     display: block;
   }
+
 .amenities-container{
-   width: 87vw;
-   height: 40vh;
-   margin-left: 20px;
-   margin-top: 20px;
+    width: 87vw;
+    height: 40vh;
+   margin-left: 1.3vw;
+   margin-top: 2.5vh;
+
    
    
 }
 .amenities-container img{
     width: 87vw;
     height: 40vh;
-    border-radius: 20px;
+    border-radius: 15px;
 
 }
 .amenities-text{
     text-align: center;
     color: white;
-   margin-top: -200px;
+   margin-top: -25vh;
+   position: static;
 
 }
 
@@ -48,31 +56,38 @@ body{
 
 .services-slides{
     padding: 0;
-    margin-left: 20px;
-    margin-top: -90px;
-    height: 100vh;
+    margin-left: 1.5vw;
+    margin-top: -10vh;
+    height: 90vh;
+    width: auto;
     justify-self: center;
     align-items: center;
     background-color:black;
+    
 }
 .section{
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-self: center;
     align-items: center;
+    
 }
 .slider{
-    width: 800px;
-    height: 500px;
+    width: 55vw;
+    height: 60vh;
     border-radius: 20px;
     overflow: hidden;
+    background-color: thistle;
+    
 }
 .slide{
     width: 500%;
-    height: 500pv;
+    height: 64vh;
     display: flex;
+    
+    
 }
 .slide input{
     display: none;
@@ -88,13 +103,13 @@ body{
 .nav-m{
     position: absolute;
     width: 800px;
-    margin-top: -44px;
+    margin-top: -7vh;
     display: flex;
     justify-content: center;
     
 }
 .m-btn{
-    border: 2px solid white;
+    border: 0.1px solid white;
     padding: 5px;
 
     border-radius: 20px;
@@ -126,12 +141,12 @@ body{
 .nav-auto{
     position: absolute;
     width: 800px;
-    margin-top: 460px;
+    margin-top: 57vh;
     display: flex;
     justify-content: center;
 }
 .nav-auto div{
-    border: 2px solid white;
+    border: 0.1px solid white;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -155,17 +170,21 @@ body{
 #radio5:checked ~ .nav-auto .a-b5{
     background-color: white;
 }
+
+.services-description-container :hover{
+    background-color: teal;
+}
 .services-description-container{
     
     width: 32vw;
-    height: 66vh;
-    position: absolute;
-    margin-left: 117vh;
-    margin-top: -84.5vh;
+    height: 65vh;
+    float: right;
+   /* margin-top: -82.5vh;*/
+    margin-right: 8.7vw;
     
 }
 .description{
-    height: 66vh;
+    height: 62.5vh;
     padding: 10px;
     text-align: center;
     color: black;
@@ -195,6 +214,7 @@ body{
     z-index: 2;
     position: relative;
 }
+
 
 
 #preloader{
