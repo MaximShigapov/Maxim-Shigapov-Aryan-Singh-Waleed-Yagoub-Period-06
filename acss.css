@@ -24,13 +24,12 @@ body{
     display: block;
   }
 
-
-  
 .amenities-container{
     width: 87vw;
     height: 40vh;
    margin-left: 1.3vw;
    margin-top: 2.5vh;
+
    
    
 }
@@ -193,8 +192,28 @@ body{
     background-color: blanchedalmond;
     
 }
-
-
+.pool-container{
+    width: 87vw;
+    height: auto;
+    
+    margin-left: 20px;
+    margin-top: -89px;
+}
+.pool-pic img{
+    width: 87vw;
+    height: 100vh;
+    border-radius: 20px;
+    opacity: .8;
+    
+}
+.pool-text{
+    color: white;
+    text-align: center;
+    margin-top: -650px;
+    
+    z-index: 2;
+    position: relative;
+}
 
 
 
