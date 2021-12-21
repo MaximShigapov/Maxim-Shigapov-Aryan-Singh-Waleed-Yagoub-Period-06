@@ -18,7 +18,7 @@ body{
     color: #000000;
     display: block;
   }
-.services-container{
+.amenities-container{
    width: 87vw;
    height: 40vh;
    margin-left: 20px;
@@ -26,13 +26,13 @@ body{
    
    
 }
-.services-container img{
+.amenities-container img{
     width: 87vw;
     height: 40vh;
     border-radius: 20px;
 
 }
-.services-text{
+.amenities-text{
     text-align: center;
     color: white;
    margin-top: -200px;
@@ -46,7 +46,7 @@ body{
 
 
 
-.food-slides{
+.services-slides{
     padding: 0;
     margin-left: 20px;
     margin-top: -90px;
@@ -173,8 +173,28 @@ body{
     background-color: blanchedalmond;
     
 }
-
-
+.pool-container{
+    width: 87vw;
+    height: auto;
+    
+    margin-left: 20px;
+    margin-top: -89px;
+}
+.pool-pic img{
+    width: 87vw;
+    height: 100vh;
+    border-radius: 20px;
+    opacity: .8;
+    
+}
+.pool-text{
+    color: white;
+    text-align: center;
+    margin-top: -650px;
+    
+    z-index: 2;
+    position: relative;
+}
 
 
 #preloader{
