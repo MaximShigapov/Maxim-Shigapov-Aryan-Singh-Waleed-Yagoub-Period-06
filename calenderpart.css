@@ -4,6 +4,11 @@ body{
   background-color: black;
 }
 
+p{
+color: white;
+}
+
+
 
 .sidenav {
   right: 20px;
@@ -31,29 +36,17 @@ body{
 
 .bookings-container{
   width: 87vw;
-  height: 40vh;
- margin-left: 1.3vw;
- margin-top: 2.5vh;
-
- 
- 
-}
-.bookings-container img{
-  width: 87vw;
-  height: 40vh;
+  height: 12vh;
+  background-image: url('43.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
   border-radius: 15px;
-
-}
-.bookings-text{
-  text-align: center;
+  margin-left: 1.5vw;
   color: white;
- margin-top: -30vh;
- position: static;
-
+  text-align: center;
 }
-
-
-
+ 
 
 
 
@@ -95,7 +88,7 @@ body{
   height: 60vh;
   border-radius: 20px;
   overflow: hidden;
-  background-color: thistle;
+  background-color: white;
   
 }
 
@@ -272,11 +265,10 @@ body{
 
 
 .room1-description-container{
-  
-  
-  background-color: #ffffff;
+  background-image: url(42.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
+ 
   width: 35vw;
   height: 60vh;
   float: right;
@@ -295,9 +287,9 @@ body{
 .room2-description-container{
   
   
-  background-color: #ffffff;
+  background-image: url(41.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   width: 35vw;
   height: 60vh;
   float: right;
@@ -315,11 +307,10 @@ body{
 } 
 
 .room3-description-container{
-  
-  
-  background-color: #ffffff;
+
+  background-image: url(42.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   width: 35vw;
   height: 60vh;
   float: right;
@@ -341,7 +332,7 @@ body{
 .container {
   box-sizing: border-box;
   width: 100%;
-  background-color: #dedeec;
+  background-color: #white;
   color: #eee;
   display: flex;
   justify-content: center;

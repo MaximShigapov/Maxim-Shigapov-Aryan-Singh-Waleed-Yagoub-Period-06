@@ -1,9 +1,18 @@
 body{
     background-color: black;
 }
-h1,p{
+h1{
+    color: black;
+    text-align: center;}
+    
+
+p{
     color: black;
     text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+
 }
 .sidenav {
     right: 20px;
@@ -28,7 +37,7 @@ h1,p{
 .dining{
     width: 87vw;
     height: 12vh;
-    background-image: url('salt.jpg');
+    background-image: url('42.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -49,12 +58,13 @@ h1,p{
 }
 .food4-des{
     width: 87vw;
-    height: 25vh;
-    background-color: blanchedalmond;
+    height: 20vh;
+    background-color: white;
     border-radius: 15px;
     margin-left: 1.5vw;
-    margin-top: 3vh;
-}
+    margin-top: 3vh;}
+     
+
 .food3{
     width: 87vw;
     height: 90vh;
@@ -69,8 +79,8 @@ h1,p{
 }
 .food3-des{
     width: 87vw;
-    height: 25vh;
-    background-color: blanchedalmond;
+    height: 20vh;
+    background-color: white;
     border-radius: 15px;
     margin-left: 1.5vw;
     margin-top: 3vh;
@@ -89,8 +99,8 @@ h1,p{
 }
 .food2-des{
     width: 87vw;
-    height: 25vh;
-    background-color: blanchedalmond;
+    height: 20vh;
+    background-color: white;
     border-radius: 15px;
     margin-left: 1.5vw;
     margin-top: 3vh;
@@ -109,8 +119,8 @@ h1,p{
 }
 .food1-des{
     width: 87vw;
-    height: 25vh;
-    background-color: blanchedalmond;
+    height: 20vh;
+    background-color: white;
     border-radius: 15px;
     margin-left: 1.5vw;
     margin-top: 3vh;
