@@ -2,6 +2,7 @@
 body{
     background-color: black;
     
+    
 }
 .sidenav {
     right: 20px;
@@ -42,7 +43,7 @@ body{
 .amenities-text{
     text-align: center;
     color: white;
-   margin-top: -25vh;
+   margin-top: -30vh;
    position: static;
 
 }
@@ -54,19 +55,12 @@ body{
 
 
 
-.services-slides{
-    padding: 0;
-    margin-left: 1.5vw;
-    margin-top: -10vh;
-    height: 90vh;
-    width: auto;
-    justify-self: center;
-    align-items: center;
-    background-color:black;
+
     
-}
+
 .section{
-    margin: 0;
+    margin-top: -12vh;
+    margin-left: 1.5vw;
     padding: 0;
     height: 90vh;
     display: flex;
@@ -75,7 +69,7 @@ body{
     
 }
 .slider{
-    width: 55vw;
+    width: 50vw;
     height: 60vh;
     border-radius: 20px;
     overflow: hidden;
@@ -97,8 +91,8 @@ body{
     transition: 1s;
 }
 .st img{
-    width: 800px;
-    height: 500px;
+    width: 52vw;
+    height: 64vh;
 }
 .nav-m{
     position: absolute;
@@ -171,48 +165,168 @@ body{
     background-color: white;
 }
 
-.services-description-container :hover{
-    background-color: teal;
-}
+
+
+
 .services-description-container{
     
-    width: 32vw;
-    height: 65vh;
+    
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 35vw;
+    height: 60vh;
     float: right;
-   /* margin-top: -82.5vh;*/
-    margin-right: 8.7vw;
+    border-radius: 15px;
+    margin-top: -75vh;
+    margin-right: 10vw;
+
     
 }
-.description{
-    height: 62.5vh;
-    padding: 10px;
+
+
+.services-description-container h1, p{
     text-align: center;
-    color: black;
-    border-radius: 20px;
-    background-color: blanchedalmond;
     
-}
-.pool-container{
-    width: 87vw;
-    height: auto;
-    
-    margin-left: 20px;
-    margin-top: -89px;
-}
-.pool-pic img{
-    width: 87vw;
-    height: 100vh;
-    border-radius: 20px;
-    opacity: .8;
-    
-}
-.pool-text{
+} 
+
+.pool{
+    margin-top: -13vh;
+    width: 30vw;
+    height: 50vh;
+    background-image: url('12.jpg');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    margin-left:1.5vw ;
+    border-radius: 15px;
     color: white;
-    text-align: center;
-    margin-top: -650px;
     
-    z-index: 2;
-    position: relative;
+}
+.pool h1{
+    text-align: center;
+    
+}
+.pool h2{
+    margin-top: 10vh;
+    text-align: center;
+    
+}
+.gym{
+    width: 27vw;
+    height: 50vh;
+    background-image: url('gym2.jpg');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-left: 33vw;
+    margin-top: -53vh;
+    color: white;
+}
+.gym h1{
+    text-align: center;
+}
+.gym p{
+    text-align: center;
+}
+.gym h2{
+    margin-top: 7vh;
+    text-align: center
+}
+.reczone{
+    width: 26vw;
+    height: 50vh;
+    background-image: url('scc.jpg');
+    background-size: 130%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    float: right;
+    margin-top: -50vh;
+    margin-right: 10vw;
+    color: white;
+}
+.reczone h1{
+    text-align: center;
+}
+.reczone p{
+    text-align: center;
+}
+.reczone h2{
+    margin-top: 7vh;
+    text-align: center
+}
+.color-button{
+    font-size: 50px;
+    padding: 20px 45px;
+    background-color: transparent;
+    border: 5px solid white;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-top: -10vh;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+    word-spacing: 4vw;
+    margin-top: 5vh;
+}
+
+
+
+
+
+.events{
+    color: black;
+    margin-top: 4vh;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    width: 45vw;
+    height: 50vh;
+    margin-left: 1.5vw;
+  
+    
+    
+}
+table, th, td {
+    border: 1px solid black;
+    
+    
+
+  }
+th{
+    font-size: 2.5vh;
+    
+}
+table{
+    
+    border-collapse: collapse;
+    width: 40vw;
+    height: 40vh;
+    text-align: center;
+    border-radius: 15px;
+    margin: auto;
+    
+}
+h1{
+    text-align: center;
+}
+.dining{
+    background-image: url(38.jpg);
+    background-size: 100%;
+    background-position: center;
+    width: 40vw;
+    height: 50.2vh;
+    text-align: center;
+    float: right;
+    border-radius: 15px;
+    margin-right: 10vw;
+    margin-top: -50vh;
+    
+}
+.dining p{
+    margin-top: 5vh;
+}
+.dining h1{
+    margin-top: 15vh;
 }
 
 
