@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+}
+h1,p{
+    color: black;
+    text-align: center;
+}
+.sidenav {
+    right: 20px;
+    height: 93vh;
+    width: 7.5vw; 
+    position: fixed; 
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-radius: 15px;
+    background-image: url(42.jpg);
+    background-position: right;
+    background-size:auto;
+}    
+.sidenav a {
+    text-align: center;
+    padding-top: 15vh;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+  }
+.dining{
+    width: 87vw;
+    height: 12vh;
+    background-image: url('salt.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-left: 1.5vw;
+    color: white;
+    text-align: center;
+}
+.food4{
+    width: 87vw;
+    height: 90vh;
+    background-image: url('food4.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
+
+}
+.food4-des{
+    width: 87vw;
+    height: 25vh;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
+}
+.food3{
+    width: 87vw;
+    height: 90vh;
+    background-image: url('food3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
+
+}
+.food3-des{
+    width: 87vw;
+    height: 25vh;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
+}
+.food2{
+    width: 87vw;
+    height: 90vh;
+    background-image: url('food2.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
+
+}
+.food2-des{
+    width: 87vw;
+    height: 25vh;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
+}
+.food1{
+    width: 87vw;
+    height: 90vh;
+    background-image: url('food1.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
+
+}
+.food1-des{
+    width: 87vw;
+    height: 25vh;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
+}
