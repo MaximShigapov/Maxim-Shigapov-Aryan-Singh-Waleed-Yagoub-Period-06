@@ -195,7 +195,7 @@ body{
     width: 30vw;
     height: 50vh;
     background-image: url('12.jpg');
-    background-size: 150%;
+    background-size: 160%;
     background-repeat: no-repeat;
     margin-left:1.5vw ;
     border-radius: 15px;
@@ -236,7 +236,7 @@ body{
     width: 26vw;
     height: 50vh;
     background-image: url('scc.jpg');
-    background-size: 130%;
+    background-size: 150%;
     background-repeat: no-repeat;
     border-radius: 15px;
     float: right;
