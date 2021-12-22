@@ -1,0 +1,450 @@
+/******************CSS FOR BOOKING PAGE**********************/
+
+body{
+  background-color: black;
+}
+
+
+.sidenav {
+  right: 20px;
+  height: 93vh;
+  width: 7.5vw; 
+  position: fixed; 
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-radius: 15px;
+  background-image: url(42.jpg);
+  background-position: right;
+  background-size:auto;
+}    
+
+.sidenav a {
+  text-align: center;
+  padding-top: 15vh;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}
+
+
+
+.bookings-container{
+  width: 87vw;
+  height: 40vh;
+ margin-left: 1.3vw;
+ margin-top: 2.5vh;
+
+ 
+ 
+}
+.bookings-container img{
+  width: 87vw;
+  height: 40vh;
+  border-radius: 15px;
+
+}
+.bookings-text{
+  text-align: center;
+  color: white;
+ margin-top: -30vh;
+ position: static;
+
+}
+
+
+
+
+
+
+.section1{
+  margin-top: -12vh;
+  margin-left: 1.5vw;
+  padding: 0;
+  height: 90vh;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  
+}
+
+.section2{
+  margin-top: -24vh;
+  margin-left: 1.5vw;
+  padding: 0;
+  height: 90vh;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  
+}
+
+.section3{
+  margin-top: -24vh;
+  margin-left: 1.5vw;
+  padding: 0;
+  height: 90vh;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  
+}
+
+.slider{
+  width: 50vw;
+  height: 60vh;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: thistle;
+  
+}
+
+
+/*gallery of pictures (general) */
+
+.slide{
+  width: 500%;
+  height: 64vh;
+  display: flex;
+  
+  
+}
+.slide input{
+  display: none;
+}
+.st{
+  width: 20%;
+  transition: 1s;
+}
+.st img{
+  width: 52vw;
+  height: 64vh;
+}
+.nav-m{
+  position: absolute;
+  width: 800px;
+  margin-top: -7vh;
+  display: flex;
+  justify-content: center;
+  
+}
+.m-btn{
+  border: 0.1px solid white;
+  padding: 5px;
+
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 1s;
+}
+.m-btn:not(:last-child){
+  margin-right: 30px;
+}
+.m-btn:hover{
+  background-color: white;
+}
+
+/*gallery for room 1 below */
+
+#radio1:checked ~.first{
+  margin-left: 0;
+}
+#radio2:checked ~.first{
+  margin-left: -20%;
+}
+#radio3:checked ~.first{
+  margin-left: -40%;
+}
+#radio4:checked ~.first{
+  margin-left: -60%;
+}
+#radio5:checked ~.first{
+  margin-left: -80%;
+}
+
+.nav-auto{
+  position: absolute;
+  width: 800px;
+  margin-top: 57vh;
+  display: flex;
+  justify-content: center;
+}
+.nav-auto div{
+  border: 0.1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.nav-auto div:not(:last-child){
+  margin-right: 30px;
+  justify-content: center;
+}
+#radio1:checked ~ .nav-auto .a-b1{
+  background-color: white;
+}
+#radio2:checked ~ .nav-auto .a-b2{
+  background-color: white;
+}
+#radio3:checked ~ .nav-auto .a-b3{
+  background-color: white;
+}
+#radio4:checked ~ .nav-auto .a-b4{
+  background-color: white;
+}
+#radio5:checked ~ .nav-auto .a-b5{
+  background-color: white;
+}
+
+
+/*gallery for room 2 below*/
+
+
+#radio6:checked ~.first{
+  margin-left: 0;
+}
+#radio7:checked ~.first{
+  margin-left: -20%;
+}
+#radio8:checked ~.first{
+  margin-left: -40%;
+}
+#radio9:checked ~.first{
+  margin-left: -60%;
+}
+#radio10:checked ~.first{
+  margin-left: -80%;
+}
+
+
+#radio6:checked ~ .nav-auto .a-b1{
+  background-color: white;
+}
+#radio7:checked ~ .nav-auto .a-b2{
+  background-color: white;
+}
+#radio8:checked ~ .nav-auto .a-b3{
+  background-color: white;
+}
+#radio9:checked ~ .nav-auto .a-b4{
+  background-color: white;
+}
+#radio10:checked ~ .nav-auto .a-b5{
+  background-color: white;
+}
+
+
+/*gallery for room 3 below*/
+
+#radio11:checked ~.first{
+  margin-left: 0;
+}
+#radio12:checked ~.first{
+  margin-left: -20%;
+}
+#radio13:checked ~.first{
+  margin-left: -40%;
+}
+#radio14:checked ~.first{
+  margin-left: -60%;
+}
+#radio15:checked ~.first{
+  margin-left: -80%;
+}
+
+#radio11:checked ~ .nav-auto .a-b1{
+  background-color: white;
+}
+#radio12:checked ~ .nav-auto .a-b2{
+  background-color: white;
+}
+#radio13:checked ~ .nav-auto .a-b3{
+  background-color: white;
+}
+#radio14:checked ~ .nav-auto .a-b4{
+  background-color: white;
+}
+#radio15:checked ~ .nav-auto .a-b5{
+  background-color: white;
+}
+
+
+
+
+
+
+.room1-description-container{
+  
+  
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 35vw;
+  height: 60vh;
+  float: right;
+  border-radius: 15px;
+  margin-top: -75vh;
+  margin-right: 10vw;
+
+  
+}
+
+.room1-description-container h1, p{
+  text-align: center;
+  
+} 
+
+.room2-description-container{
+  
+  
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 35vw;
+  height: 60vh;
+  float: right;
+  border-radius: 15px;
+  margin-top: -75vh;
+  margin-right: 10vw;
+
+  
+}
+
+
+.room2-description-container h1, p{
+  text-align: center;
+  
+} 
+
+.room3-description-container{
+  
+  
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 35vw;
+  height: 60vh;
+  float: right;
+  border-radius: 15px;
+  margin-top: -75vh;
+  margin-right: 10vw;
+
+  
+}
+
+
+.room3-description-container h1, p{
+  text-align: center;
+  
+} 
+
+
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #dedeec;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar {
+  box-sizing: border-box;
+  width: 45rem;
+  height: 52rem;
+  background-color: #222227;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.month {
+  box-sizing: border-box;
+  width: 100%;
+  height: 12rem;
+  background-color: #167e56;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  text-align: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.month i {
+  box-sizing: border-box;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.month h1 {
+  box-sizing: border-box;
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.month p {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+.weekdays {
+  box-sizing: border-box;
+  width: 100%;
+  height: 5rem;
+  padding: 0 0.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.weekdays div {
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  width: calc(44.2rem / 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.days {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.2rem;
+}
+
+.days div {
+  
+  font-size: 1.4rem;
+  margin: 0.3rem;
+  width: calc(40.2rem / 7);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today) {
+  
+  background-color: #262626;
+  border: 0.2rem solid #777;
+  cursor: pointer;
+}
+
+.prev-date,
+.next-date {
+  box-sizing: border-box;
+  opacity: 0.5;
+}
+
+.today {
+  box-sizing: border-box;
+  background-color: #167e56;
+}
