@@ -1,29 +1,36 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
         <title>Order</title>
+        <link rel="stylesheet" href="order.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB Garamond">
+
 </head>
 <body>
 
 <form action="background.php" method="POST">
 
-    <input type="text" name="firstname" placeholder="First Name">
-    <input type="text" name="lastname" placeholder="Last Name">
+    <div class="orderform">
+        <div class="title">
+            <p>Please Enter Your Reservation Details Below</p>
+        </div>
+    <input class="input1" type="text" name="firstname" placeholder="First Name">
+    <input class="input1" type="text" name="lastname" placeholder="Last Name">
     <br>
-    <input type="number" name="room" placeholder="Room Number">
+    <input class="input1" type="number" name="room" placeholder="Room Number">
     <br>
-    <input type="text" name="staydatebeginning" placeholder="Arrival Date">
-    <input type="text" name="staydateend" placeholder="Departure Date">
+    <input class="input1" type="text" name="staydatebeginning" placeholder="Arrival Date (mm/dd/yyyy)">
+    <input class="input1" type="text" name="staydateend" placeholder="Departure Date (mm/dd/yyyy)">
     <br>
-    <input type="text" name="email" placeholder="Email Address">
+    <input class="input1" type="text" name="email" placeholder="Email Address">
     <br>
-
-    <button type="submit" name="submit">Place your order</button>
+    <button class="input2" type="submit" name="submit">Place Your Order →</button>
+    </div>
 
 </form>
 
 
 </body>
 </html>
+    
     
