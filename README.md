@@ -11,3 +11,4 @@ General Messages:
 2. Maxim Shigapov's journal was not printed out. This is turned in as a separate file in the repository.
 3. You could view our website through this link http://54.215.130.159/Pinnacle/
 4. We use a database to store user information which represents the booking process of guests
+5. We tried to use branches for most changes, though most of the SQL, PHP and respective CSS files were directly edited on the main branch and committed directly to GitHub
